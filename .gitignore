@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda
+.env
+.venv
+
+# Outputs
+protein_descriptors.csv
+failed_proteins.csv
+protein_descriptor.log
+
+# fpocket outputs
+*_out/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
