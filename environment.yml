@@ -1,0 +1,23 @@
+name: protein_desc
+
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - tqdm
+  - biopython
+  - mdanalysis
+  - freesasa
+  - dssp
+  - fpocket
+  - pip
+
+  - pip:
+      - prody
