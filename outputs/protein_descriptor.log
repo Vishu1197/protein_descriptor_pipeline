@@ -1,0 +1,415 @@
+2026-05-11 14:56:49,736 [INFO] Found 29 proteins
+2026-05-11 14:56:50,026 [INFO] Processing ifih1
+2026-05-11 14:56:50,032 [INFO] Processing ankh
+2026-05-11 14:56:50,033 [INFO] Processing tbc1d1
+2026-05-11 14:56:50,034 [INFO] Processing gpr75
+2026-05-11 14:56:50,036 [INFO] Processing map3k15
+2026-05-11 14:56:50,036 [INFO] Processing inhbe
+2026-05-11 14:56:50,037 [INFO] Processing f10a
+2026-05-11 14:56:50,039 [INFO] Processing dpp9
+2026-05-11 14:56:50,039 [INFO] Processing lrp2
+2026-05-11 14:56:50,041 [INFO] Processing scn9a
+2026-05-11 14:56:50,041 [INFO] Processing apol1
+2026-05-11 14:56:50,567 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/inhbe.pdb: DSSP failed to produce an output
+2026-05-11 14:56:50,567 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/apol1.pdb: DSSP failed to produce an output
+2026-05-11 14:56:50,571 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/f10a.pdb: DSSP failed to produce an output
+2026-05-11 14:56:50,591 [ERROR] FAILED: inhbe
+2026-05-11 14:56:50,591 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/ankh.pdb: DSSP failed to produce an output
+2026-05-11 14:56:50,598 [ERROR] FAILED: f10a
+2026-05-11 14:56:50,598 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:50,597 [ERROR] FAILED: apol1
+2026-05-11 14:56:50,600 [INFO] Processing slc30a8
+2026-05-11 14:56:50,603 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:50,604 [INFO] Processing cfhr5
+2026-05-11 14:56:50,606 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:50,614 [INFO] Processing tnfsf15
+2026-05-11 14:56:50,615 [ERROR] FAILED: ankh
+2026-05-11 14:56:50,621 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:50,622 [INFO] Processing umod
+2026-05-11 14:56:50,662 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/gpr75.pdb: DSSP failed to produce an output
+2026-05-11 14:56:50,722 [ERROR] FAILED: gpr75
+2026-05-11 14:56:50,734 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:50,740 [INFO] Processing ubash3a
+2026-05-11 14:56:50,911 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/tnfsf15.pdb: DSSP failed to produce an output
+2026-05-11 14:56:50,916 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/slc30a8.pdb: DSSP failed to produce an output
+2026-05-11 14:56:50,918 [ERROR] FAILED: tnfsf15
+2026-05-11 14:56:50,918 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:50,919 [INFO] Processing rnf186
+2026-05-11 14:56:50,922 [ERROR] FAILED: slc30a8
+2026-05-11 14:56:50,923 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:50,923 [INFO] Processing scn10a
+2026-05-11 14:56:50,967 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/ifih1.pdb: DSSP failed to produce an output
+2026-05-11 14:56:50,989 [ERROR] FAILED: ifih1
+2026-05-11 14:56:50,994 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:50,996 [INFO] Processing nlrp3
+2026-05-11 14:56:51,037 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/cfhr5.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,055 [ERROR] FAILED: cfhr5
+2026-05-11 14:56:51,056 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,057 [INFO] Processing pcsk9
+2026-05-11 14:56:51,070 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/rnf186.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,076 [ERROR] FAILED: rnf186
+2026-05-11 14:56:51,078 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,079 [INFO] Processing gipr
+2026-05-11 14:56:51,102 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/ubash3a.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,110 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/lrp2.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,133 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/tbc1d1.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,139 [ERROR] FAILED: ubash3a
+2026-05-11 14:56:51,141 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,143 [INFO] Processing card6
+2026-05-11 14:56:51,145 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/umod.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,174 [ERROR] FAILED: umod
+2026-05-11 14:56:51,180 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,181 [INFO] Processing adcy5
+2026-05-11 14:56:51,195 [ERROR] FAILED: lrp2
+2026-05-11 14:56:51,202 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,204 [INFO] Processing slc6a19
+2026-05-11 14:56:51,222 [ERROR] FAILED: tbc1d1
+2026-05-11 14:56:51,227 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,229 [INFO] Processing dpp4
+2026-05-11 14:56:51,234 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/dpp9.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,291 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/map3k15.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,309 [ERROR] FAILED: dpp9
+2026-05-11 14:56:51,327 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,329 [INFO] Processing il4r
+2026-05-11 14:56:51,360 [ERROR] FAILED: map3k15
+2026-05-11 14:56:51,370 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,371 [INFO] Processing tyk2
+2026-05-11 14:56:51,631 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/pcsk9.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,658 [ERROR] FAILED: pcsk9
+2026-05-11 14:56:51,659 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,661 [INFO] Processing dnmt3a
+2026-05-11 14:56:51,714 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/gipr.pdb: DSSP failed to produce an output
+2026-05-11 14:56:51,733 [ERROR] FAILED: gipr
+2026-05-11 14:56:51,738 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:51,740 [INFO] Processing gys1
+2026-05-11 14:56:51,987 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/slc6a19.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,009 [ERROR] FAILED: slc6a19
+2026-05-11 14:56:52,011 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,100 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/il4r.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,125 [ERROR] FAILED: il4r
+2026-05-11 14:56:52,127 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,188 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/dpp4.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,243 [ERROR] FAILED: dpp4
+2026-05-11 14:56:52,248 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,523 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/nlrp3.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,559 [ERROR] FAILED: nlrp3
+2026-05-11 14:56:52,561 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,561 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/scn9a.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,619 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/adcy5.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,620 [ERROR] FAILED: scn9a
+2026-05-11 14:56:52,621 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,646 [ERROR] FAILED: adcy5
+2026-05-11 14:56:52,647 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,719 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/card6.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,744 [ERROR] FAILED: card6
+2026-05-11 14:56:52,746 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,746 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/gys1.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,762 [ERROR] FAILED: gys1
+2026-05-11 14:56:52,763 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,777 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/tyk2.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,799 [ERROR] FAILED: tyk2
+2026-05-11 14:56:52,799 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,886 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/scn10a.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,893 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/dnmt3a.pdb: DSSP failed to produce an output
+2026-05-11 14:56:52,924 [ERROR] FAILED: dnmt3a
+2026-05-11 14:56:52,925 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:52,940 [ERROR] FAILED: scn10a
+2026-05-11 14:56:52,941 [ERROR] Traceback (most recent call last):
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 364, in process_protein
+    seq_desc = calculate_sequence_descriptors(sequence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishu/dock_predict_model/protein_descriptor_pipeline.py", line 155, in calculate_sequence_descriptors
+    aa_percent = analysis.get_amino_acids_percent()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProteinAnalysis' object has no attribute 'get_amino_acids_percent'
+
+2026-05-11 14:56:53,085 [INFO] Saved descriptors to protein_descriptors.csv
+2026-05-11 14:56:53,100 [INFO] Saved failed proteins to failed_proteins.csv
+2026-05-11 14:56:53,100 [INFO] Total runtime: 3.37 seconds
+2026-05-11 14:56:53,100 [INFO] Processing completed successfully.
+2026-05-11 14:59:43,610 [INFO] Found 29 proteins
+2026-05-11 14:59:43,833 [INFO] Processing ifih1
+2026-05-11 14:59:43,834 [INFO] Processing tbc1d1
+2026-05-11 14:59:43,834 [INFO] Processing ankh
+2026-05-11 14:59:43,836 [INFO] Processing inhbe
+2026-05-11 14:59:43,836 [INFO] Processing f10a
+2026-05-11 14:59:43,836 [INFO] Processing gpr75
+2026-05-11 14:59:43,837 [INFO] Processing map3k15
+2026-05-11 14:59:43,840 [INFO] Processing dpp9
+2026-05-11 14:59:43,839 [INFO] Processing lrp2
+2026-05-11 14:59:43,844 [INFO] Processing apol1
+2026-05-11 14:59:43,844 [INFO] Processing scn9a
+2026-05-11 14:59:44,166 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/inhbe.pdb: DSSP failed to produce an output
+2026-05-11 14:59:44,247 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/apol1.pdb: DSSP failed to produce an output
+2026-05-11 14:59:44,278 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/gpr75.pdb: DSSP failed to produce an output
+2026-05-11 14:59:44,311 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/f10a.pdb: DSSP failed to produce an output
+2026-05-11 14:59:44,322 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/ankh.pdb: DSSP failed to produce an output
+2026-05-11 14:59:44,627 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/dpp9.pdb: DSSP failed to produce an output
+2026-05-11 14:59:44,649 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/ifih1.pdb: DSSP failed to produce an output
+2026-05-11 14:59:44,868 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/tbc1d1.pdb: DSSP failed to produce an output
+2026-05-11 14:59:44,912 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/lrp2.pdb: DSSP failed to produce an output
+2026-05-11 14:59:45,062 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/map3k15.pdb: DSSP failed to produce an output
+2026-05-11 14:59:45,271 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/scn9a.pdb: DSSP failed to produce an output
+2026-05-11 14:59:46,761 [INFO] Processing slc30a8
+2026-05-11 14:59:47,378 [INFO] Processing cfhr5
+2026-05-11 14:59:47,484 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/slc30a8.pdb: DSSP failed to produce an output
+2026-05-11 14:59:47,891 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/cfhr5.pdb: DSSP failed to produce an output
+2026-05-11 14:59:48,044 [INFO] Processing tnfsf15
+2026-05-11 14:59:48,221 [INFO] Processing umod
+2026-05-11 14:59:48,381 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/tnfsf15.pdb: DSSP failed to produce an output
+2026-05-11 14:59:48,986 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/umod.pdb: DSSP failed to produce an output
+2026-05-11 14:59:50,154 [INFO] Processing ubash3a
+2026-05-11 14:59:50,507 [INFO] Processing rnf186
+2026-05-11 14:59:50,640 [INFO] Processing scn10a
+2026-05-11 14:59:50,690 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/rnf186.pdb: DSSP failed to produce an output
+2026-05-11 14:59:50,950 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/ubash3a.pdb: DSSP failed to produce an output
+2026-05-11 14:59:52,061 [INFO] Processing nlrp3
+2026-05-11 14:59:52,495 [INFO] Processing pcsk9
+2026-05-11 14:59:52,735 [INFO] Processing gipr
+2026-05-11 14:59:53,061 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/pcsk9.pdb: DSSP failed to produce an output
+2026-05-11 14:59:53,094 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/gipr.pdb: DSSP failed to produce an output
+2026-05-11 14:59:53,343 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/nlrp3.pdb: DSSP failed to produce an output
+2026-05-11 14:59:54,949 [INFO] Processing card6
+2026-05-11 14:59:55,688 [INFO] Processing adcy5
+2026-05-11 14:59:55,703 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/scn10a.pdb: DSSP failed to produce an output
+2026-05-11 14:59:57,798 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/card6.pdb: DSSP failed to produce an output
+2026-05-11 14:59:58,448 [INFO] Processing slc6a19
+2026-05-11 14:59:59,526 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/adcy5.pdb: DSSP failed to produce an output
+2026-05-11 15:00:00,163 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/slc6a19.pdb: DSSP failed to produce an output
+2026-05-11 15:00:00,202 [INFO] Processing dpp4
+2026-05-11 15:00:03,610 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/dpp4.pdb: DSSP failed to produce an output
+2026-05-11 15:00:06,197 [INFO] Processing il4r
+2026-05-11 15:00:07,322 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/il4r.pdb: DSSP failed to produce an output
+2026-05-11 15:00:09,354 [INFO] Processing tyk2
+2026-05-11 15:00:11,116 [INFO] Processing dnmt3a
+2026-05-11 15:00:11,734 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/dnmt3a.pdb: DSSP failed to produce an output
+2026-05-11 15:00:12,412 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/tyk2.pdb: DSSP failed to produce an output
+2026-05-11 15:00:22,937 [INFO] Processing gys1
+2026-05-11 15:00:23,769 [WARNING] DSSP failed for /home/vishu/dock_predict_model/proteins/gys1.pdb: DSSP failed to produce an output
+2026-05-11 15:01:21,609 [INFO] Saved descriptors to protein_descriptors.csv
+2026-05-11 15:01:21,612 [INFO] Total runtime: 98.00 seconds
+2026-05-11 15:01:21,612 [INFO] Processing completed successfully.
